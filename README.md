@@ -1,1 +1,1 @@
-# react2022
+# react-study2022
