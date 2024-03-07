@@ -2,7 +2,7 @@
     --primaryColor: #faf9fa;
     --mainWhite : #fff;
     --mainBlack : #222;
-    --inputColor : #d8dbde;
+    --inputColor :   #ecedef;
     --buttonColor : #4771c6;
     --effectColor : #7caddc;
 }
@@ -19,4 +19,42 @@ body {
 
 h1 { 
     margin: 1rem 0;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;;
+    padding-right: 16px;
+}
+
+.btn {
+    text-decoration: none;
+    color: var( --primaryColor);
+    background-color: var(--buttonColor);
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgb(0, 0, 0, 0.24);
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.24) , 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.btn-icon {
+    margin-left: 0.75rem;
+    font-size: 1.2rem;
 }
