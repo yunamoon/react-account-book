@@ -1,33 +1,35 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './List.css';
 import Item from '../item/Item';
 import { MdDelete } from 'react-icons/md';
 
-export class List extends Component {
-  render() {
+
+const List = ( {charges, handleDelete , hadleEdit , handleClear }) => {
 
     return (
       <>
         <ul className='list'>
-        {this.props.initialCharges.map(item=>  {
+        {charges.map(item=>  {
           return (      
           <Item key={item.id} 
-          initialCharges={item} 
-          handleDelete={this.props.handleDelete}/>
+          charge={item} 
+          handleDelete={handleDelete}
+          hadleEdit={hadleEdit}/>
           )
     
         })}
       
         </ul>
+        {charges.length > 0 &&
         <div className='btn-container'>
-        <button className='btn'>
+        <button className='btn' onClick={handleClear}>
           전체 삭제 <MdDelete className='btn-icon'/>
         </button>
         </div>
-     
+        }
       </>
     )
   }
-}
+
 
 export default List
