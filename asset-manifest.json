@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/.github.io/react-account-book/static/css/main.4f4114b7.css",
-    "main.js": "/.github.io/react-account-book/static/js/main.50a444a7.js",
-    "static/js/787.2d9f8acd.chunk.js": "/.github.io/react-account-book/static/js/787.2d9f8acd.chunk.js",
-    "index.html": "/.github.io/react-account-book/index.html",
-    "main.4f4114b7.css.map": "/.github.io/react-account-book/static/css/main.4f4114b7.css.map",
-    "main.50a444a7.js.map": "/.github.io/react-account-book/static/js/main.50a444a7.js.map",
-    "787.2d9f8acd.chunk.js.map": "/.github.io/react-account-book/static/js/787.2d9f8acd.chunk.js.map"
+    "main.css": "/react-account-book/static/css/main.4f4114b7.css",
+    "main.js": "/react-account-book/static/js/main.9d893bea.js",
+    "static/js/787.2d9f8acd.chunk.js": "/react-account-book/static/js/787.2d9f8acd.chunk.js",
+    "index.html": "/react-account-book/index.html",
+    "main.4f4114b7.css.map": "/react-account-book/static/css/main.4f4114b7.css.map",
+    "main.9d893bea.js.map": "/react-account-book/static/js/main.9d893bea.js.map",
+    "787.2d9f8acd.chunk.js.map": "/react-account-book/static/js/787.2d9f8acd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f4114b7.css",
-    "static/js/main.50a444a7.js"
+    "static/js/main.9d893bea.js"
   ]
 }
